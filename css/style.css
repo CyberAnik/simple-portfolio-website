@@ -254,4 +254,12 @@ nav ul li:hover a{
     font-weight: 700;
     margin-top: 16px;
 }
+input{
+    padding: 15px 50px 15px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    font-size: 16px;
+}
 /*footer*/
