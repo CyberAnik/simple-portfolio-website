@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* Nav bar*/
+header{
+    background-color: #0c75b2;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 230px 30px 230px ;
+}
+.nav-h{
+    font-size: 50px;
+    font-size: 700;
+    color: white;
+}
+.nav-h span{
+    color: black;
+}
+.menu-ul{
+    display: flex;
+    align-items: center;
+}
+nav .menu-ul li{
+    list-style: none;
+    margin-left: 70px; 
+}
+nav .menu-ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+nav ul li:hover a{
+    color: black;
+}
+/* Nav bar*/
+
+/*Banner*/
+.banner{
+    background-image: url(../images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 808px;
+}
+.b-content{
+    padding: 216px 230px 216px 845px;
+    text-align: right;
+    justify-content: end;
+}
+.b-content h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76.25px;
+    color: white;
+    padding-left: 350px;
+    margin-bottom: 25px;
+}
+.b-content p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    padding-left: 350px;
+    margin-bottom: 30px;
+}
+.b-content button{
+    width: 160px;
+    height: 64px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    color: #005FAC;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*Banner*/
+
+/*failure*/
+.failure{
+    display: flex;
+    padding: 120px 230px;
+}
+.photo{
+    padding-left: 150px;
+}
+.f-content{
+    padding: 250px 200px 0 120px;
+}
+.f-content h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 24px;
+}
+.f-content p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-bottom: 16px;
+}
+.f-content ul{
+    padding: 0;
+}
+.f-content ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    list-style: none;
+}
+.f-content ul li i{
+    color: #16D887;
+    width: 24px;
+    height: 24px;
+}
+/*failure*/
+
+/*My plans*/
+.plan{
+    padding: 0 230px 120px 230px ;
+}
+.s-p{
+    text-align: center;
+}
+.plan h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    text-align: center;
+    color: #151414;
+    padding-bottom: 50px;
+}
+.p4{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+}
+.s-p h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #151414;
+    margin-bottom: 16px;
+}
+.s-p p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #737272;
+}
+.p-b{
+    background-image: url(../images/watch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    border-radius: 8px;   
+}
+.p-b h3{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: white;
+    margin-bottom: 24px;
+    padding: 50px 0 0 60px;
+}
+.p-b button{
+    width: 160px;
+    height: 64px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    color: #005FAC;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 60px;
+}
+.lini{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    height: 100%;
+    border-radius: 10px;
+}
+/*My plans*/
+
+/*footer*/
+.footer{
+    display: flex;
+    background-color: black;
+    padding: 120px 230px 100px 230px;
+}
+.f{
+    padding-right: 780px;
+}
+.f h2{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+.f p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: white;
+    margin-bottom: 32px;
+}
+.f a i{
+    color: white;
+    font-size: 30px;
+}
+.f-a{
+    display: inline-block;
+    padding-right: 17px;
+}
+.f-r h2{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    margin-bottom: 31px;
+}
+.f-r button{
+    width: 160px;
+    height: 64px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: #005FAC;;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 16px;
+}
+/*footer*/
